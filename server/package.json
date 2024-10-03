@@ -1,10 +1,10 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/game.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node server.js"
+    "dev": "vercel dev",
+    "start": "vercel dev"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.3",
     "socket.io": "^4.8.0"
+  },
+  "devDependencies": {
+    "vercel": "^37.6.0"
   }
 }
